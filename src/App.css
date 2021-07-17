@@ -17,6 +17,11 @@ body{
   font-family: 'Oswald', sans-serif;
 }
 
+.list-link{
+  display: flex;
+  margin: 20px;
+  text-decoration: none;
+}
 
 nav {
   display: flex;

@@ -13,8 +13,9 @@ import SMGcards from './smgcards';
 import Radiobuttons from './radiobuttons'
 import {BrowserRouter as Router, Switch, Route}  from 'react-router-dom';
 import AllGuns from './all';
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faYoutube, faLinkedin, faGithub, faDiscord, faInstagram} from "@fortawesome/free-brands-svg-icons"
+import { faYoutube, faLinkedin, faGithub, faDiscord, faInstagram, faGit} from "@fortawesome/free-brands-svg-icons"
 /* eslint-disable */
 
 
@@ -54,14 +55,14 @@ const App = () => {
       <Router> 
       <Nav />    
           <Switch>
-        <Route path="/loadoutsApp/Home" exact component={Home} />
-        <Route path='/loadoutsApp/ARs' component = {AR}/>
-        <Route path ='/loadoutsApp/SMGs' component = {SMGs} />
-        <Route path ='/loadoutsApp/LMGs' component = {LMGs} />
+        <Route exact path="/" exact component={Home} />
+        <Route path='/ARs' component = {AR}/>
+        <Route path ='/SMGs' component = {SMGs} />
+        <Route path ='/LMGs' component = {LMGs} />
         <Route path ='/Shotguns' component = {Shotguns} />
-        <Route path ='/loadoutsApp/SM' component = {SM} />
-        <Route path ='/loadoutsApp/Other' component = {Other} />
-        <Route path ='/loadoutsApp/All' component = {AllGuns} />
+        <Route path ='/SM' component = {SM} />
+        <Route path ='/Other' component = {Other} />
+        <Route path ='/All' component = {AllGuns} />
       </Switch>        
       </Router>
 
@@ -91,7 +92,7 @@ const Home = () => (
       </div>
       
         <div className='btn'>
-          <a href="/loadoutsApp/All"><button>BROWSE ALL GUNS</button></a>
+          <Link to='/All'> <button>BROWSE ALL GUNS</button></Link>
 
       </div>
     </section>
@@ -133,17 +134,15 @@ const Home = () => (
     <div>
       
       <div className='icon'>
-          <a href='https://ca.linkedin.com/in/anmol-tyagi-07a410212' className='linkedin'>
-            <FontAwesomeIcon icon={faLinkedin} size="3x" />
-          </a>
+          <Link to='https://ca.linkedin.com/in/anmol-tyagi-07a410212' className='linkedin'> <FontAwesomeIcon icon={faLinkedin} size="3x" /></Link>
 
-          <a href='https://github.com/anmoltyagi1' className='github'>
-            <FontAwesomeIcon icon={faGithub} size="3x" />
-          </a>
+          <Link to='https://github.com/anmoltyagi1' className='github'> <FontAwesomeIcon icon={faGithub} size="3x" /></Link>
 
-          <a href='https://www.instagram.com/_anmoltyagii/' className='instagram'>
-            <FontAwesomeIcon icon={faInstagram} size="3x" />
-          </a>
+          <Link to='https://www.instagram.com/_anmoltyagii/' className='instagram'> <FontAwesomeIcon icon={faInstagram} size="3x" /></Link>
+          
+            
+       
+
 
           <p>I do not claim any of the images used on this website to be mine. I have linked the URL where I found the images</p>
 

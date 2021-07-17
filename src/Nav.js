@@ -5,6 +5,7 @@ import './App.css'
 
 
 
+
 function Nav() {
 
     const [showLinks, setShowLinks] = useState(false);
@@ -17,7 +18,7 @@ function Nav() {
       
       <nav>
         <div className="leftside"> 
-        <a href='/loadoutsApp/home'>WZ Loadouts</a>
+        <Link to='/'><li>WZ LOADOUTS</li> </Link>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}className='nav-button'> <span></span>
         <span></span>
@@ -26,13 +27,16 @@ function Nav() {
 
       <div className='rightside'>
         <div className='the-links' id={showLinks ? 'hidden' : ''}>
-        <a href='/loadoutsApp/All'>All Guns</a>
-        <a href='/loadoutsApp/ARs'>Assault Rifles</a>
-        <a href='/loadoutsApp/SMGs'>SMGs</a>
-        <a href='/loadoutsApp/Shotguns'>Shotguns</a>
-        <a href='/loadoutsApp/LMGs'>LMGs</a>
-        <a href='/loadoutsApp/SM'>Snipers</a>
-        <a href='/loadoutsApp/Other'>Other</a>
+
+          <ul className='list-link'>
+            <Link to='/ARs'><li>Assault Rifles</li> </Link>
+            <Link to='/SMGs'><li>SMGs</li> </Link>
+            <Link to='/LMGs'><li>LMGs</li> </Link>
+            <Link to='/Shotguns'><li>Shotguns</li> </Link>
+            <Link to='/SM'><li>Snipers</li> </Link>
+
+          </ul>
+        
         
         </div>
 
