@@ -138,7 +138,9 @@ const Home = () => (
 
           <Link to='https://github.com/anmoltyagi1' className='github'> <FontAwesomeIcon icon={faGithub} size="3x" /></Link>
 
-          <Link to='https://www.instagram.com/_anmoltyagii/' className='instagram'> <FontAwesomeIcon icon={faInstagram} size="3x" /></Link>
+          <a href='https://www.instagram.com/_anmoltyagii/' className='instagram'>
+              <FontAwesomeIcon icon={faInstagram} size="3x" />
+            </a>
           
             
        
