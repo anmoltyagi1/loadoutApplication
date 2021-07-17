@@ -18,7 +18,7 @@ function Nav() {
       
       <nav>
         <div className="leftside"> 
-        <Link to='/'><li>WZ LOADOUTS</li> </Link>
+        <Link to='/loadoutApplication/'><li>WZ LOADOUTS</li> </Link>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}className='nav-button'> <span></span>
         <span></span>
