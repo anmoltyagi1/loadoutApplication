@@ -17,7 +17,7 @@ function Nav() {
       
       <nav>
         <div className="leftside"> 
-        <a href='/home'>WZ Loadouts</a>
+        <a href='/loadoutsApp/home'>WZ Loadouts</a>
         </div>
         <button onClick={() => setShowLinks(!showLinks)}className='nav-button'> <span></span>
         <span></span>
@@ -26,13 +26,13 @@ function Nav() {
 
       <div className='rightside'>
         <div className='the-links' id={showLinks ? 'hidden' : ''}>
-        <a href='/All'>All Guns</a>
-        <a href='/ARs'>Assault Rifles</a>
-        <a href='/SMGs'>SMGs</a>
-        <a href='/Shotguns'>Shotguns</a>
-        <a href='/LMGs'>LMGs</a>
-        <a href='/SM'>Snipers</a>
-        <a href='/Other'>Other</a>
+        <a href='/loadoutsApp/All'>All Guns</a>
+        <a href='/loadoutsApp/ARs'>Assault Rifles</a>
+        <a href='/loadoutsApp/SMGs'>SMGs</a>
+        <a href='/loadoutsApp/Shotguns'>Shotguns</a>
+        <a href='/loadoutsApp/LMGs'>LMGs</a>
+        <a href='/loadoutsApp/SM'>Snipers</a>
+        <a href='/loadoutsApp/Other'>Other</a>
         
         </div>
 

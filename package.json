@@ -1,6 +1,6 @@
 {
-  "homepage": "http://anmoltyagi1.github.io/loadoutsApp",
-  "name": "loadoutsite",
+  "homepage": "http://anmoltyagi1.github.io/loadoutApplication/home",
+  "name": "loadoutApplication",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "typescript": "^4.4.0-beta",
     "web-vitals": "^1.1.2"
   },
-  "scripts": { 
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

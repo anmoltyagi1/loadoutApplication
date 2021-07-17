@@ -54,14 +54,14 @@ const App = () => {
       <Router> 
       <Nav />    
           <Switch>
-        <Route path="/Home" exact component={Home} />
-        <Route path='/ARs' component = {AR}/>
-        <Route path ='/SMGs' component = {SMGs} />
-        <Route path ='/LMGs' component = {LMGs} />
+        <Route path="/loadoutsApp/Home" exact component={Home} />
+        <Route path='/loadoutsApp/ARs' component = {AR}/>
+        <Route path ='/loadoutsApp/SMGs' component = {SMGs} />
+        <Route path ='/loadoutsApp/LMGs' component = {LMGs} />
         <Route path ='/Shotguns' component = {Shotguns} />
-        <Route path ='/SM' component = {SM} />
-        <Route path ='/Other' component = {Other} />
-        <Route path ='/All' component = {AllGuns} />
+        <Route path ='/loadoutsApp/SM' component = {SM} />
+        <Route path ='/loadoutsApp/Other' component = {Other} />
+        <Route path ='/loadoutsApp/All' component = {AllGuns} />
       </Switch>        
       </Router>
 
@@ -91,7 +91,7 @@ const Home = () => (
       </div>
       
         <div className='btn'>
-          <a href="/All"><button>BROWSE ALL GUNS</button></a>
+          <a href="/loadoutsApp/All"><button>BROWSE ALL GUNS</button></a>
 
       </div>
     </section>
