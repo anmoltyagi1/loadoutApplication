@@ -45,6 +45,8 @@ const AllGuns = () => {
             <h2 className='searchText'> Search For a Gun</h2>
           <input className="search-bar" type="text" placeholder="Search..." onChange={event => {setSearchTermSMG(event.target.value)}} />
 
+
+
         
           </form>
           </div> 
