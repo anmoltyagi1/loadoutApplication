@@ -134,11 +134,15 @@ const Home = () => (
     <div>
       
       <div className='icon'>
-          <Link to='https://ca.linkedin.com/in/anmol-tyagi-07a410212' className='linkedin'> <FontAwesomeIcon icon={faLinkedin} size="3x" /></Link>
+      <a href='https://ca.linkedin.com/in/anmol-tyagi-07a410212' className='linkedin'>
+              <FontAwesomeIcon icon={faLinkedin} size="3x" />
+            </a>
+  
+            <a href='https://github.com/anmoltyagi1' className='github'>
+              <FontAwesomeIcon icon={faGithub} size="3x" />
+            </a>
 
-          <Link to='https://github.com/anmoltyagi1' className='github'> <FontAwesomeIcon icon={faGithub} size="3x" /></Link>
-
-          <a href='google.com' className='instagram'>
+          <a href='https://www.instagram.com/_anmoltyagii/' className='instagram'>
               <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
           

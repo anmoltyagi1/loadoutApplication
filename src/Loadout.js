@@ -12,6 +12,7 @@ const Loadouts1 = ({type, gun, a1, a2, a3, a4, a5, image}) => {
             <p>{a3}</p>
             <p>{a4}</p>
             <p>{a5}</p>
+            <p> <a href={image} >Image Source</a></p>
         
 
           
