@@ -685,9 +685,11 @@ button:hover .text {
   color: rgb(148, 181, 161);
   text-decoration: none;
   position: relative;
+  transition: 265ms;
 }
 
 .the-links a::after{
+  transition: 265ms;
   content: "";
   background: rgb(237, 232, 232);
 	mix-blend-mode: exclusion;
@@ -702,6 +704,7 @@ button:hover .text {
 
 
 .the-links a:hover::after{
+  transition: 265ms;
   height: calc(100% + 8px);
   color: #ffffff !important;
 }
