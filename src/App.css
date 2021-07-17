@@ -28,6 +28,10 @@ h6{
   font-size: 20px;
 }
 
+.leftside h2{
+  padding: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -101,7 +105,7 @@ nav a {
 }
 
 h2{
-  color: rgb(8, 255, 70);
+  color: #03e429;
 }
 
 @keyframes textclip {
@@ -182,6 +186,9 @@ form{
   justify-content: space-around;
   flex-wrap: wrap;
   
+}
+.leftside{
+
 }
 
 .bottomNav{
@@ -684,8 +691,37 @@ button:hover .text {
   color: #ffffff !important;
 }
 
+
 .the-links a:hover::after{
-  /* height: calc(100% + 8px); */
+  height: calc(100% + 8px);
+  color: #ffffff !important;
+}
+
+
+
+
+.leftside a{
+  padding-bottom: 0px !important;
+
+
+}
+
+.leftside a::after{
+  
+  content: "";
+  background: rgb(0, 0, 0);
+	mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  color: #ffffff !important;
+}
+
+.leftside a:hover::after{
+
   color: #ffffff !important;
 }
 
