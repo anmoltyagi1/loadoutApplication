@@ -12,6 +12,7 @@ body{
   color: rgb(0, 0, 0);
 }
 
+
 #page-heading{
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -21,6 +22,10 @@ body{
   display: flex;
   margin: 20px;
   text-decoration: none;
+}
+
+h6{
+  font-size: 20px;
 }
 
 nav {
@@ -68,23 +73,24 @@ nav a {
 .leftside a{
   
 
-  color: #fff;
+  color: rgb(8, 255, 70) !important;
 		font-size: 40px;
 		font-family: "ubuntu";
 		text-transform: uppercase;
 		font-weight: 700;
 		font-family: 'Oswald', sans-serif;
-		background: linear-gradient(to right,#000000 10%, #07440491 50%, #00dd00 60%);
+	/*	background: linear-gradient(to right,#ededed 10%, #00000091 50%, #00dd00 60%); 
 		background-size: auto auto;
 		background-clip: border-box;
 		background-size: 200% auto;
-		color: #fff;
+
 		background-clip: text;
 		text-fill-color: transparent;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		animation: textclip 6s linear infinite;
-		display: inline-block;
+    display: inline-block;
+    */
 
   padding-left: 200px;
   position: absolute
@@ -92,6 +98,10 @@ nav a {
   min-width: 200px;
   left: -5%;
   
+}
+
+h2{
+  color: rgb(8, 255, 70);
 }
 
 @keyframes textclip {
@@ -116,6 +126,7 @@ nav a {
   min-width: 10%;
 }
 .rightside{
+  text-decoration: none !important;
   margin-left: 500px;
   right: 0%;
   font-family: 'Oswald', sans-serif;
@@ -240,6 +251,17 @@ form{
     font-size: 30px;
     flex-wrap: wrap;
   }
+  .list-link{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .list-link a{
+    font-size: 15px !important;
+    margin: 5px !important;
+    right: 15% !important;
+  }
   .img{
   max-width: 200px;
   max-height: 75px;
@@ -248,10 +270,12 @@ form{
   }
 
   .rightside #hidden{
+    align-items: center;
+    text-align: center;
     position: absolute;
     left: 48%;
     top: 120px;
-    height: 350px;
+    height: 450px;
     width: 25%;
     background-color: black;
     flex-direction: column;
@@ -299,19 +323,29 @@ form{
     margin-left: 195% !important;
     
   }
+  nav{
+    background: rgb(0, 0, 0);
+  }
   .leftside a{
     margin-right: 100% !important;
     left: -20.5%;
-    top: 8px;
+    top: -17.5px;
+    font-size: 20px !important;
+    background: transparent;
   }
   .rightside #hidden{
-    left: -6.67%;
+    left: 0%;
     top: 75px;
-    width: 40%;
+    width: 125px;
     text-align: center;
 
 
   }
+  .rightside a{
+    left: -10px;
+  }
+
+  
   .top-section{
     max-height: 90vh;
     background: black;
@@ -619,11 +653,16 @@ button:hover .text {
   background-image: linear-gradient(-45deg, #4568dc, #000000);
 }
 
-
+.list-link{
+  display: flex;
+ 
+}
 
 .the-links a{
   position: absolute;
   margin: 5px;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .the-links a {
@@ -642,12 +681,12 @@ button:hover .text {
   bottom: -4px;
   left: -10px;
   transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  color: #000000;
+  color: #ffffff !important;
 }
 
 .the-links a:hover::after{
-  height: calc(100% + 8px);
-  color: #000000;
+  /* height: calc(100% + 8px); */
+  color: #ffffff !important;
 }
 
 

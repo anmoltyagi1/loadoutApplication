@@ -18,7 +18,8 @@ function Nav() {
       
       <nav>
         <div className="leftside"> 
-        <Link to='/loadoutApplication/'><li>WZ LOADOUTS</li> </Link>
+        <Link to='/loadoutApplication/' ><h2>WZ LOADOUTS</h2> </Link>
+        
         </div>
         <button onClick={() => setShowLinks(!showLinks)}className='nav-button'> <span></span>
         <span></span>
@@ -29,13 +30,13 @@ function Nav() {
         <div className='the-links' id={showLinks ? 'hidden' : ''}>
 
           <ul className='list-link'>
-            <Link to='/All'><li>All Guns</li> </Link>
-            <Link to='/ARs'><li>Assault Rifles</li> </Link>
-            <Link to='/SMGs'><li>SMGs</li> </Link>
-            <Link to='/LMGs'><li>LMGs</li> </Link>
-            <Link to='/Shotguns'><li>Shotguns</li> </Link>
-            <Link to='/SM'><li>Snipers</li> </Link>
-            <Link to='/Other'><li>Other</li> </Link>
+            <Link to='/All'><p>All Guns</p> </Link>
+            <Link to='/ARs'><p>Assault Rifles</p> </Link>
+            <Link to='/SMGs'><p>SMGs</p> </Link>
+            <Link to='/LMGs'><p>LMGs</p> </Link>
+            <Link to='/Shotguns'><p>Shotguns</p> </Link>
+            <Link to='/SM'><p>Snipers</p> </Link>
+            <Link to='/Other'><p>Other</p> </Link>
 
           </ul>
         
