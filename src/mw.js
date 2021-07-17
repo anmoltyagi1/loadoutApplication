@@ -25,7 +25,7 @@ const AR = () => {
 
   
   const fetchLoadoutsAR = async () => {
-      const data = await fetch('https://sheet.best/api/sheets/65855a46-3636-4747-8214-261cfa136ebd')
+      const data = await fetch('https://sheet.best/api/sheets/559f43d6-2dd4-436d-b4ac-45320b31fd11')
 
       const loadoutsAR = await data.json()
       console.log(loadoutsAR);
