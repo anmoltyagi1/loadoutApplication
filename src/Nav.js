@@ -29,11 +29,13 @@ function Nav() {
         <div className='the-links' id={showLinks ? 'hidden' : ''}>
 
           <ul className='list-link'>
+            <Link to='/All'><li>All Guns</li> </Link>
             <Link to='/ARs'><li>Assault Rifles</li> </Link>
             <Link to='/SMGs'><li>SMGs</li> </Link>
             <Link to='/LMGs'><li>LMGs</li> </Link>
             <Link to='/Shotguns'><li>Shotguns</li> </Link>
             <Link to='/SM'><li>Snipers</li> </Link>
+            <Link to='/Other'><li>Other</li> </Link>
 
           </ul>
         
