@@ -55,7 +55,7 @@ const App = () => {
       <Router> 
       <Nav />    
           <Switch>
-        <Route exact path="/" exact component={Home} />
+        <Route exact path="loadoutsApp/" exact component={Home} />
         <Route path='/ARs' component = {AR}/>
         <Route path ='/SMGs' component = {SMGs} />
         <Route path ='/LMGs' component = {LMGs} />
