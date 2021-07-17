@@ -55,7 +55,7 @@ const App = () => {
       <Router> 
       <Nav />    
           <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/Home" exact component={Home} />
         <Route path='/ARs' component = {AR}/>
         <Route path ='/SMGs' component = {SMGs} />
         <Route path ='/LMGs' component = {LMGs} />
