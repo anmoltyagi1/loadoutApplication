@@ -56,7 +56,7 @@ const App = () => {
       <Nav />    
           <Switch>
         <Route path="/" exact component={Home} />
-        <Route path='loadoutApplication/ARs' component = {AR}/>
+        <Route path='/ARs' component = {AR}/>
         <Route path ='/SMGs' component = {SMGs} />
         <Route path ='/LMGs' component = {LMGs} />
         <Route path ='/Shotguns' component = {Shotguns} />
