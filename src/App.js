@@ -66,19 +66,8 @@ const App = () => {
       </Switch>        
       </Router>
 
-      
-
-
       </div>
-
-      
-
-      
-
         ) 
-
-        
-       
       };
     
 const Home = () => (
@@ -96,17 +85,7 @@ const Home = () => (
 
       </div>
     </section>
-    
-
-
-
-
-
-
-
-
-
-
+  
     <section className='first-section'>
       <div className='heading'>
         <h2>About The Site</h2>
@@ -114,9 +93,6 @@ const Home = () => (
       <div className='content'>
         <div className='musicBox'>
           <p> The loadouts displayed on this website were all taken from famous Twitch streamer Symfuhny. This site was made for those times you need a loadout right before loading into a game, or when your friend needs the loadout you've been using lately.</p>
-
-    
-                 
 
 
           <div className='home-imgs'>
@@ -131,13 +107,11 @@ const Home = () => (
 
 
     <section className='about1'>
-    <div>
-      
+    <div>    
       <div className='icon'>
       <a href='https://ca.linkedin.com/in/anmol-tyagi-07a410212' className='linkedin'>
               <FontAwesomeIcon icon={faLinkedin} size="3x" />
             </a>
-  
             <a href='https://github.com/anmoltyagi1' className='github'>
               <FontAwesomeIcon icon={faGithub} size="3x" />
             </a>
@@ -145,34 +119,11 @@ const Home = () => (
           <a href='https://www.instagram.com/_anmoltyagii/' className='instagram'>
               <FontAwesomeIcon icon={faInstagram} size="3x" />
             </a>
-          
-            
-       
-
-
           <p>I do not claim any of the images used on this website to be mine. I have linked the URL where I found the images</p>
-
-    
-
-
-        </div>
-      
-         
+        </div>   
       </div>
-
-       
-  
-
-    
-    
-    
     </section>
-  
-
-  </div>
-
-
-  
+  </div> 
   </div>
 )
         
